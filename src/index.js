@@ -8,7 +8,7 @@ import { createUploadLink } from "apollo-upload-client";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 
 const httpLink = createUploadLink({
-  uri: "http://localhost:3100",
+  uri: "/graphql/",
 });
 
 const client = new ApolloClient({
